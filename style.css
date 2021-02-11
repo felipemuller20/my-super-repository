@@ -1,0 +1,39 @@
+<style>
+        body {
+            background-color: #f4f7f5;
+            line-height: 20px;
+            color: #08090a;
+            font-family: 'Nunito', sans-serif;            
+            }
+
+        p, ul {
+            font-family: Arial, Helvetica, sans-serif; }
+        
+        p {
+            color: #222823;  
+               
+        }
+
+        h1, h3 {
+            text-align:center;
+        }
+        img#minha-foto {
+            display: block;
+            margin-left: auto;
+            margin-right: auto
+        }
+
+        ul {
+            color: #575a5e;
+            text-decoration: underline;        
+        }
+
+        h2 {
+            font-size: 30px;
+            }
+        
+        .skills {
+            font-size: 25px;
+            font-weight: 600;   
+        }
+    </style>
