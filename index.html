@@ -3,23 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <title>Portfólio Felipe Muller</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f4f7f5;
+            line-height: 20px;
+            color: #08090a;
+            font-family: 'Nunito', sans-serif;            
+            }
+
+        p, ul {
+            font-family: Arial, Helvetica, sans-serif; }
+        
+        p {
+            color: #222823;  
+               
+        }
+
+        h1, h3 {
+            text-align:center;
+        }
+        img#minha-foto {
+            display: block;
+            margin-left: auto;
+            margin-right: auto
+        }
+
+        ul {
+            color: #575a5e;
+            text-decoration: underline;        
+        }
+
+        h2 {
+            font-size: 30px;
+            }
+        
+        .skills {
+            font-size: 25px;
+            font-weight: 600;   
+        }
+    </style>
 </head>
 <body>
     <h1>Felipe Augusto Vieira Muller</h1>
     <h3>Brasil<br>Porto Alegre/RS</h3>
+    <a href="https://www.instagram.com/felipemuller_/" target="_blank"><img id="minha-foto" src="imagens/felipe.jpeg" alt="Foto do Felipe Muller" width="150px"></a>
     <h2>Índice</h2>
     <ul>
         <li><a href="#eu">Sobre mim</a></li>
         <li><a href="#formacao">Minha formação</a></li>
         <li><a href="#contatos">Meus contatos</a></li>
     </ul>
-    <img src="imagens/felipe.jpeg" alt="Foto do Felipe Muller" width="150px">
-    <h4 id="eu">Sobre mim:</h4>
+    
+
+    <h2 id="eu" class="index">Sobre mim:</h2>
+
     <p>Estudo Desenvolvimento de Software na <a href="#ltrybe">Trybe</a>, uma escola que promove experiências reais do dia a dia de trabalho de um desenvolvedor de software.<br>
-        <b>Desenvolvedor de Software Web, Desenvolvedor Full Stack, Front-end, Back-end.</b><br><br>
-        Graduado em <b>Ciências Contábeis</b> pela <a href="#lpucrs">PUCRS</a> com experiência profissional no Setor Financeiro e conhecimentos específicos na área de Planejamento Financeiro.<br>
-        <br><b>Principais valores:</b>
+        <b>Desenvolvedor de Software Web, Desenvolvedor Full Stack, Front-end, Back-end.</b><br></p>
+        <p>Graduado em <b>Ciências Contábeis</b> pela <a href="#lpucrs">PUCRS</a> com experiência profissional no Setor Financeiro e conhecimentos específicos na área de Planejamento Financeiro.<br>
+        <br></p>
         
+        <p class="skills">Principais valores:</p>
+               
         <ul>
             <em>
             <li>Ética</li>
@@ -27,7 +73,9 @@
             <li>Idoneidade</li>
             </em>
         </ul>
-        <b>Principais habilidades:</b>
+
+        <p class="skills">Principais habilidades:</p>
+
         <ul>
             <em>
             <li>Raciocínio lógico</li>
@@ -39,14 +87,20 @@
             <li>JavaScript</li>
             </em>
         </ul>
+
         <br>
-        <h4 id="formacao">Minha formação:</h4>
-        <a href="https://www.betrybe.com/" target="_blank"><img id="ltrybe" src="imagens/trybe-logo.png" alt="Logo da escola de desenvolvimento de software TRYBE" width="200px"></a>
-        <a href="https://www.pucrs.br/" target="_blank"><img id="lpucrs" src="imagens/pucrs.png" alt="Logo da PUCRS - Pontifícia Universidade Católica do Rio Grande do Sul" width="200px"><br></a>
-        <h4 id="contatos">Meus contatos:</h4>
+
+        <h2 id="formacao" class="index">Minha formação:</h2><br>
+
+        <a href="https://www.betrybe.com/" target="_blank"><img id="ltrybe" src="imagens/logo-trybe-inv.webp" alt="Logo da escola de desenvolvimento de software TRYBE" width="250px"></a>
+        <a href="https://www.pucrs.br/" target="_blank"><img id="lpucrs" src="imagens/pucrs.png" alt="Logo da PUCRS - Pontifícia Universidade Católica do Rio Grande do Sul" width="250px"><br></a>
+        
+        <h2 id="contatos" class="index">Meus contatos:</h2>
+        
         <ul>
             <li>e-mail: felipeavmuller@gmail.com</li>
             <li><a href="https://www.linkedin.com/in/felipeavmuller/" target="_blank">LinkedIn</a></li>
         </ul>
+
 </body>
 </html>
