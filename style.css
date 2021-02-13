@@ -1,39 +1,63 @@
+*{
+  margin:0;
+padding: 0;}
+body {
+       background-color: #f4f7f5;
+       line-height: 20px;
+       color: #08090a;
+       font-family: Nunito, sans-serif;            
+     }
 
-
-        body {
-            background-color: #f4f7f5;
-            line-height: 20px;
-            color: #08090a;
-            font-family: Nunito, sans-serif;            
-            }
-
-        p, ul {
-            font-family: Arial, Helvetica, sans-serif; }
+p, ul {
+       font-family: Arial, Helvetica, sans-serif;
+     }
         
-        p {
-            color: #222823;  
-               
+p {
+    color: #222823;        
+  }
+
+h1, h3 {
+         text-align:center;
+         color: white;
         }
 
-        h1, h3 {
-            text-align:center;
-        }
-        img#minha-foto {
-            display: block;
-            margin-left: auto;
-            margin-right: auto
-        }
-
-        ul {
+        
+ul {
             color: #575a5e;
             text-decoration: underline;        
         }
 
-        h2 {
+h2 {
             font-size: 30px;
             }
         
-        .skills {
+.skills {
             font-size: 25px;
             font-weight: 600;   
         }
+#header {
+    background-image: url(imagens/world2.jpg);
+    background-size: cover;
+    padding: 30px 30px 40px;
+}        
+#header-pic {
+    
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+}
+#header-pic img {
+      position:absolute;
+      bottom: 0;
+      width: 100%;
+      transform: translateY(17%);
+    }
+}
+
+.teste{
+  color: white;
+}
+
