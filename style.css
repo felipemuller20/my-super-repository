@@ -4,9 +4,49 @@ padding: 0;}
 body {
        background-color: #f4f7f5;
        line-height: 20px;
-       color: #08090a;
        font-family: Nunito, sans-serif;            
      }
+
+
+#header {
+      background-image: url(imagens/world2.jpg);
+      background-size: cover;
+      padding: 30px 30px 40px;
+        }    
+
+a.summary-info { position: absolute;
+color:yellow;
+font-size: 20px;
+right: 50%;
+text-decoration: none;
+display: inline-block;
+}
+
+
+#header-pic {
+    
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+#header-pic img {
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+    transform: translateY(17%);
+    
+  }
+
+  h1, h3 {
+    text-align:center;
+    color: white;
+   }
+
+h3 { margin-top: 15px;}
 
 p, ul {
        font-family: Arial, Helvetica, sans-serif;
@@ -16,10 +56,6 @@ p {
     color: #222823;        
   }
 
-h1, h3 {
-         text-align:center;
-         color: white;
-        }
 
         
 ul {
@@ -35,27 +71,8 @@ h2 {
             font-size: 25px;
             font-weight: 600;   
         }
-#header {
-    background-image: url(imagens/world2.jpg);
-    background-size: cover;
-    padding: 30px 30px 40px;
-}        
-#header-pic {
     
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
-    overflow: hidden;
-    position: relative;
-    margin: 0 auto;
-}
-#header-pic img {
-      position:absolute;
-      bottom: 0;
-      width: 100%;
-      transform: translateY(17%);
-    }
-}
+
 
 
 
