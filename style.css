@@ -45,6 +45,7 @@ body
 #my-name
 {
   padding: 25px;
+  font-size: 3em;
 }
 
 #name-city-pic img
@@ -55,6 +56,57 @@ body
   height: 250px;
   margin-top: 20px;
   
+}
+
+#myself
+{
+  background-image: linear-gradient(gray, rgba(10, 8, 19, 0));
+  padding: 30px;
+}
+
+#eu 
+{
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.my-infos
+{
+  margin-left: 300px;
+  margin-right: 300px;
+  line-height: 30px;
+  font-size: 23px;
+  text-align: center;
+  margin-bottom: 25px;  
+}
+
+.main-val
+{
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom, margin-top: 15px;
+  
+}
+
+#skills-list, #values-list
+{
+  font-size: 25px;
+  margin: 20px;
+  line-height: 30px;
+  list-style-type:square;
+  width: 280px;
+}
+
+li.list:hover
+{
+  color: yellow;
+} 
+
+#list-block img
+{
+  width: 400px;
+  float: right;
+  margin-right: 300px;
 }
 
 /* body {
