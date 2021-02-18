@@ -1,39 +1,137 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+body
+{
+  line-height: 20px;
+  font-family: Nunito, sans-serif;
+}
 
+#header 
+{
+  background-image: url(imagens/world2.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 470px;
+}
 
-        body {
-            background-color: #f4f7f5;
-            line-height: 20px;
-            color: #08090a;
-            font-family: Nunito, sans-serif;            
-            }
+#summary
+{
+  margin: 40px;
+}
 
-        p, ul {
-            font-family: Arial, Helvetica, sans-serif; }
-        
-        p {
-            color: #222823;  
-               
-        }
+#about-me, #formation, #contact
+{
+  color: yellow;
+  margin: 150px;
+  font-size: 30px;
+  text-decoration: none;
+  font-style: bold;
+}
 
-        h1, h3 {
-            text-align:center;
-        }
-        img#minha-foto {
-            display: block;
-            margin-left: auto;
-            margin-right: auto
-        }
+#name-city-pic
+{
+  text-align: center;
+} 
+#my-name, #my-location
+{
+  text-align: center;
+  color: white;
+}
+#my-name
+{
+  padding: 25px;
+  font-size: 3em;
+}
 
-        ul {
-            color: #575a5e;
-            text-decoration: underline;        
-        }
+#name-city-pic img
+{
+  margin: 20px;
+  border-radius: 100%;
+  width: 265px;
+  height: 250px;
+  margin-top: 20px;
+  
+}
 
-        h2 {
-            font-size: 30px;
-            }
-        
-        .skills {
-            font-size: 25px;
-            font-weight: 600;   
-        }
+#myself
+{
+  background-image: linear-gradient(gray, rgba(10, 8, 19, 0));
+}
+
+#myself, #academic, #call-me
+{
+  padding: 30px;
+}
+
+.index
+{
+  font-weight: bold;
+  font-size: 2em;
+  padding-bottom: 20px;
+}
+
+.my-infos
+{
+  margin-left: 300px;
+  margin-right: 300px;
+  line-height: 30px;
+  font-size: 23px;
+  text-align: center;
+  margin-bottom: 25px;  
+}
+
+.main-val
+{
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom, margin-top: 15px;
+  color: white;
+  
+}
+
+#skills-list, #values-list
+{
+  font-size: 25px;
+  margin: 20px;
+  line-height: 30px;
+  list-style-type:square;
+  width: 280px;
+}
+
+li.list:hover
+{
+  color: yellow;
+} 
+
+#list-block img
+{
+  width: 400px;
+  float: right;
+  margin-right: 300px;
+}
+
+#academic img
+{
+  margin-left: 100px;
+}
+
+#mail:hover, #linkedin:hover
+{
+  color: blue;
+  font-weight: bold;
+}
+
+#linkedin
+{
+  text-decoration: none;
+}
+
+#my-contact
+{
+  font-size: 20px;
+}

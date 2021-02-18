@@ -9,102 +9,94 @@
 
 </head>
    
-    <!-- <style>
-        body {
-            background-color: #f4f7f5;
-            line-height: 20px;
-            color: #08090a;
-            font-family: 'Nunito', sans-serif;            
-            }
-
-        p, ul {
-            font-family: Arial, Helvetica, sans-serif; }
-        
-        p {
-            color: #222823;  
-               
-        }
-
-        h1, h3 {
-            text-align:center;
-        }
-        img#minha-foto {
-            display: block;
-            margin-left: auto;
-            margin-right: auto
-        }
-
-        ul {
-            color: #575a5e;
-            text-decoration: underline;        
-        }
-
-        h2 {
-            font-size: 30px;
-            }
-        
-        .skills {
-            font-size: 25px;
-            font-weight: 600;   
-        }
-    </style> -->
 
 <body>
-    <h1>Felipe Augusto Vieira Muller</h1>
-    <h3>Brasil<br>Porto Alegre/RS</h3>
-    <a href="https://www.instagram.com/felipemuller_/" target="_blank"><img id="minha-foto" src="imagens/felipe.jpeg" alt="Foto do Felipe Muller" width="150px"></a>
-    <h2>Índice</h2>
-    <ul>
-        <li><a href="#eu">Sobre mim</a></li>
-        <li><a href="#formacao">Minha formação</a></li>
-        <li><a href="#contatos">Meus contatos</a></li>
-    </ul>
+
+
+    <div id="header">
+
+        <div id="summary">
+            <a id="about-me" href="#eu">Sobre mim</a>
+            <a id="formation" href="#formacao">Minha formação</a>
+            <a id="contact" href="#contatos">Meus contatos</a>
+            
+            <div id="name-city-pic">
+                <h1 id="my-name">Felipe Augusto Vieira Muller</h1>
+                <h3 id="my-location">Brasil<br>Porto Alegre/RS</h3>
+                <a href="https://www.instagram.com/felipemuller_/" target="_blank"><img id="minha-foto" src="imagens/eu2.png" alt="Foto do Felipe Muller"></a>
+            </div>
+        </div>
+    </div>
+
+   
+    <div id="myself">
     
-
-    <h2 id="eu" class="index">Sobre mim:</h2>
-
-    <p>Estudo Desenvolvimento de Software na <a href="#ltrybe">Trybe</a>, uma escola que promove experiências reais do dia a dia de trabalho de um desenvolvedor de software.<br>
-        <b>Desenvolvedor de Software Web, Desenvolvedor Full Stack, Front-end, Back-end.</b><br></p>
-        <p>Graduado em <b>Ciências Contábeis</b> pela <a href="#lpucrs">PUCRS</a> com experiência profissional no Setor Financeiro e conhecimentos específicos na área de Planejamento Financeiro.<br>
-        <br></p>
+        <h2 id="eu" class="index">Sobre mim:</h2><br>
         
-        <p class="skills">Principais valores:</p>
-               
-        <ul>
-            <em>
-            <li>Ética</li>
-            <li>Responsabilidade</li>
-            <li>Idoneidade</li>
-            </em>
-        </ul>
+        <div class="my-infos">
+            <p>Estudo Desenvolvimento de Software na <a href="#ltrybe">Trybe</a>, uma escola que promove experiências reais do dia a dia de trabalho de um desenvolvedor de software.
+            <b>Desenvolvedor de Software Web, Desenvolvedor Full Stack, Front-end, Back-end.</b>
+             Graduado em <b>Ciências Contábeis</b> pela <a href="#lpucrs">PUCRS</a> com experiência profissional no Setor Financeiro e conhecimentos específicos na área de Planejamento Financeiro.<br>
+            </p>
+        </div>
+        
+        <div id="list-block">
+            
+            <a href="https://www.nasa.gov/moon" target="_blank"><img src="imagens/moon.png" alt="teste"></a>
+            <div id="values">
+                <p class="main-val" id="right">Principais valores:</p>
+                       
+                <ul id="values-list">
+                    <em>
+                    <li class="list">Ética</li>
+                    <li class="list">Responsabilidade</li>
+                    <li class="list">Idoneidade</li>
+                    </em>
+                </ul>
+    
+            </div>
+        <div id="skills">
+            <p class="main-val" id="left">Principais habilidades:</p>
+    
+            <ul id="skills-list">
+                <em>
+                <li class="list">Raciocínio lógico</li>
+                <li class="list">Análise crítica</li>
+                <li class="list">Espírito de liderança</li>
+                <li class="list">Trabalho em equipe</li>
+                <li class="list">HTML</li>
+                <li class="list">CSS</li>
+                <li class="list">JavaScript</li>
+                </em>
+            </ul>
 
-        <p class="skills">Principais habilidades:</p>
+            
+        </div>
+    
+        </div>
+    </div>
 
-        <ul>
-            <em>
-            <li>Raciocínio lógico</li>
-            <li>Análise crítica</li>
-            <li>Espírito de liderança</li>
-            <li>Trabalho em equipe</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            </em>
-        </ul>
-
-        <br>
-
+    <div id="academic">
         <h2 id="formacao" class="index">Minha formação:</h2><br>
 
         <a href="https://www.betrybe.com/" target="_blank"><img id="ltrybe" src="imagens/logo-trybe-inv.jpg" alt="Logo da escola de desenvolvimento de software TRYBE" width="250px"></a>
         <a href="https://www.pucrs.br/" target="_blank"><img id="lpucrs" src="imagens/pucrs.png" alt="Logo da PUCRS - Pontifícia Universidade Católica do Rio Grande do Sul" width="250px"><br></a>
-        
+    
+    </div>
+
+
+    <div id="call-me">
+
         <h2 id="contatos" class="index">Meus contatos:</h2>
         
-        <ul>
-            <li>e-mail: felipeavmuller@gmail.com</li>
-            <li><a href="https://www.linkedin.com/in/felipeavmuller/" target="_blank">LinkedIn</a></li>
-        </ul>
+        <div id="my-contact">
+
+            <p><a id="linkedin" href="https://www.linkedin.com/in/felipeavmuller/" target="_blank">LinkedIn</a></p>
+            <p><b>e-mail:</b> <span id="mail"> felipeavmuller@gmail.com </span></p> 
+
+        </div>
+        
+    </div>
 
 </body>
 </html>
